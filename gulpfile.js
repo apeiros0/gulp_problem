@@ -70,7 +70,7 @@ gulp.task('gulp-watch', function () {
     });
 });
 
-// watch() 不要這樣寫，無論使用任何 task 都會執行 (如果沒有要監控，可能會一律執行 watch)
+// watch() 不要這樣寫，無論使用任何 task 都會執行 (如果沒有要監控，會一律執行 watch)
 // $.watch(['./source/**/*.jade', './source/scss/**/*.scss'], function () {
 //     // start 直接呼叫 task
 //     gulp.start('jade');
