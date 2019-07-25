@@ -1,0 +1,19 @@
+.text-primary {
+  color: blue; }
+
+.text-secondary {
+  color: gray; }
+
+.text-info {
+  color: green; }
+
+.text-danger {
+  color: red; }
+
+.box {
+  -webkit-transform: rotateX(360deg);
+          transform: rotateX(360deg); }
+
+.box2 {
+  -webkit-transform: rotateX(360deg);
+          transform: rotateX(360deg); }

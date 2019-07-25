@@ -1,0 +1,28 @@
+$primary: blue;
+$secondary: gray;
+$info: green;
+$warning: yellow;
+$danger: red;
+
+$theme: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'info': $info,
+    // 'warning': $warning,
+    'danger': $danger,
+);
+
+
+@each $k, $v in $theme {
+    .text-#{$k} {
+        color:  $v;   
+    }
+}
+
+.box {
+    transform: rotateX(360deg);
+}
+
+.box2 {
+    transform: rotateX(360deg);
+}
